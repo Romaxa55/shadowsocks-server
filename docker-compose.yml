@@ -3,5 +3,5 @@ shadowsocks:
   ports:
     - "8388:8388"
   environment:
-    - SS_PASSWORD=ssp@ss
+    - SS_PASSWORD=$SS_PASSWORD
     - SS_METHOD=aes-256-cfb
