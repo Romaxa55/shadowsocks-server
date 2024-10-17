@@ -8,5 +8,5 @@ services:
       - "443:8388" # Замените на нужный вам порт
     environment:
       - PASSWORD=$SS_PASSWORD
-      - METHOD=ChaCha20-IETF-Poly1305 # Метод шифрования
+      - METHOD=chacha20-ietf-poly1305 # Метод шифрования
     restart: unless-stopped
